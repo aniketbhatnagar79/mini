@@ -14,10 +14,10 @@ function call(){
     document.getElementById("age2").innerText=data[1].age;
     document.getElementById("desc2").innerText=data[1].desc;
 
-    document.getElementById("id3").innerText=data[1].id;
-    document.getElementById("name3").innerText=data[1].name;
-    document.getElementById("age3").innerText=data[1].age;
-    document.getElementById("desc3").innerText=data[1].desc;
+    document.getElementById("id3").innerText=data[2].id;
+    document.getElementById("name3").innerText=data[2].name;
+    document.getElementById("age3").innerText=data[2].age;
+    document.getElementById("desc3").innerText=data[2].desc;
 
     
 });
